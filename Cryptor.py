@@ -5,7 +5,7 @@ directory = os.getcwd()
 
 class Cryptor:
 		text = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', ' ', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '!', '"', '#', '$', '%', '&', "'", '(', ')', '*', '+', ',', '-', '.', '/', ':', ';', '<', '=', '>', '?', '@', '[', '\\', ']', '^', '_', '`', '{', '|', '}', '~','\n']
-		key = ['z!2s*','m)9>S','vG%3=','Q4$^1','c*n4!','gt5*~','H0/85','p3&s0','l-.qp','lm!@3','&6Xa3','azAd6','3#3$9','nhgf0','$^*&a','qmo%5','***--','kuiyr','fumk.','stx6@','3678s','gfbf0','HaRso','eE3&2','hsg36','12843','rtr)@','HiS4*','++-op','xzxZO','js7*!','mangi','4n4n0','go611','an9)2','big$%','21)g5','zinde','loyWE','32489','mut98','aqw3(','buff~','44@0$','juw*!','encdy','NhRtY','09&^b','zopDE','h)Wr$','50yfv','oppo5','vivo5','dRy8^','ViN$9','8I(u!','rO0It','sAnDy','a!c@H','*****','&^&^&','!@!@!','LPLPL','jfrwj', ',sfmn', 'kkrrf', 'erlkg', 'niurg', 'k[rpe', 'l[3o=', '0i4u2', '4r-=3', 'or9io', 'rmipo', 't9ro=', '-4-04', 'yhz3n', '47z24', 'r2rz3', '8t357', 'nt 02', 'c87n3', '943x4', '7ye9x', 'u09r0', '3x9im', 'x4534', '85i-5', 'x09i4', '2-402', '47895', 'urtr1', 'b48nd', 'x904r', 'myut5', 'n4z*)','tp8&3]']
+		key = ["Contact developer for keys"]
 		def enc(inpt):
 			return ''.join([Cryptor.key[Cryptor.text.index(tol)] for tol in inpt if tol in Cryptor.text])
 		def dec(inpt):
